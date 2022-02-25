@@ -35,6 +35,19 @@ it('can check the tos box', () => {
     .check()
 })
 
+it('user can submit form data', () => {
+   nameInput().type('Lonnie')
+   emailInput().type('lonnie@gmail.com')
+   passInput().type('mypassword')
+   submitInput().click()
+   
+
+
+   
+
+
+})
+
 
 
 
