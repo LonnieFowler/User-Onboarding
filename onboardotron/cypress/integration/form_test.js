@@ -40,12 +40,12 @@ it('user can submit form data', () => {
    emailInput().type('lonnie@gmail.com')
    passInput().type('mypassword')
    submitInput().click()
-   
+})
 
-
-   
-
-
+it('it checks form validation of an empty input', () => {
+    nameInput()
+    .type(' ')
+    .should('have.length', 4)
 })
 
 
