@@ -30,6 +30,11 @@ it('user inputs recieved', () => {
     .should('have.value','mypassword')
 })
 
+it('can check the tos box', () => {
+    tosInput()
+    .check()
+})
+
 
 
 
